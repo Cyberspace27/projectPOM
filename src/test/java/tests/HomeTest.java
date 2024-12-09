@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import base.BaseTest;
+import generic.BaseTest;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.SystemUserPage;

@@ -63,12 +63,16 @@ logs/
 
 *.log
 
-/test-output/
-test-output/
+*/test-output/*
+test-output/*
 
 # Application files
 
 .env
 
+#target folder 
+*/target/*
+target/*
+target/
 
 
