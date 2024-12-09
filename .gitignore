@@ -1,0 +1,74 @@
+
+# Compiled class files
+
+*.class
+
+
+# Log files
+
+*.log
+
+
+# Package files
+
+*.jar
+
+*.war
+
+*.ear
+
+
+# IDE-specific files
+
+/.idea/
+
+/*.iml
+
+
+# Maven/Gradle build directories
+
+/target/
+
+/build/
+
+
+# Temporary files
+
+*.tmp
+
+*.bak
+
+*.swp
+
+
+# OS-specific files
+
+.DS_Store
+
+Thumbs.db
+
+
+# Dependency directories
+
+/.mvn/
+
+/.gradle/
+
+/out/
+
+
+# Logs and reports
+
+logs/
+
+*.log
+
+/test-output/
+test-output/
+
+# Application files
+
+.env
+
+
+

@@ -1,63 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-06T21:53:40 CST" name="Default suite" finished-at="2024-12-06T21:53:55 CST" duration-ms="14891">
+  <suite started-at="2024-12-08T18:10:46 CST" name="Suite" finished-at="2024-12-08T18:11:15 CST" duration-ms="29216">
     <groups>
     </groups>
-    <test started-at="2024-12-06T21:53:40 CST" name="Default test" finished-at="2024-12-06T21:53:55 CST" duration-ms="14891">
-      <class name="tests.HomeTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.HomeTest@1573f9fc]" started-at="2024-12-06T21:53:38 CST" name="beforeSuite" finished-at="2024-12-06T21:53:40 CST" duration-ms="1954" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomeTest@1573f9fc]" started-at="2024-12-06T21:53:40 CST" name="setUp" finished-at="2024-12-06T21:53:46 CST" duration-ms="5700" status="PASS">
+    <test started-at="2024-12-08T18:10:46 CST" name="Test" finished-at="2024-12-08T18:11:15 CST" duration-ms="29216">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@489115ef]" started-at="2024-12-08T18:11:02 CST" name="setUp" finished-at="2024-12-08T18:11:07 CST" duration-ms="5793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginTestSetup()[pri:0, instance:tests.HomeTest@1573f9fc]" started-at="2024-12-06T21:53:46 CST" name="loginTestSetup" finished-at="2024-12-06T21:53:46 CST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="loginTestSetup()[pri:0, instance:tests.LoginTest@489115ef]" started-at="2024-12-08T18:11:07 CST" name="loginTestSetup" finished-at="2024-12-08T18:11:07 CST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestSetup -->
-        <test-method signature="adminTabTest()[pri:1, instance:tests.HomeTest@1573f9fc]" started-at="2024-12-06T21:53:46 CST" name="adminTabTest" finished-at="2024-12-06T21:53:47 CST" duration-ms="1101" status="PASS">
+        <test-method signature="verifyLogoImgTest()[pri:1, instance:tests.LoginTest@489115ef]" started-at="2024-12-08T18:11:07 CST" name="verifyLogoImgTest" finished-at="2024-12-08T18:11:07 CST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- adminTabTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTest@1573f9fc]" started-at="2024-12-06T21:53:47 CST" name="tearDown" finished-at="2024-12-06T21:53:47 CST" duration-ms="238" status="PASS">
+        </test-method> <!-- verifyLogoImgTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@489115ef]" started-at="2024-12-08T18:11:07 CST" name="tearDown" finished-at="2024-12-08T18:11:08 CST" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomeTest@1573f9fc]" started-at="2024-12-06T21:53:47 CST" name="setUp" finished-at="2024-12-06T21:53:54 CST" duration-ms="6276" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@489115ef]" started-at="2024-12-08T18:11:08 CST" name="setUp" finished-at="2024-12-08T18:11:13 CST" duration-ms="5755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginTestSetup()[pri:0, instance:tests.HomeTest@1573f9fc]" started-at="2024-12-06T21:53:54 CST" name="loginTestSetup" finished-at="2024-12-06T21:53:54 CST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="loginTestSetup()[pri:0, instance:tests.LoginTest@489115ef]" started-at="2024-12-08T18:11:13 CST" name="loginTestSetup" finished-at="2024-12-08T18:11:13 CST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestSetup -->
-        <test-method signature="verifySystemUserPageTest()[pri:2, instance:tests.HomeTest@1573f9fc]" started-at="2024-12-06T21:53:54 CST" name="verifySystemUserPageTest" finished-at="2024-12-06T21:53:55 CST" duration-ms="1306" status="FAIL">
+        <test-method signature="verifyLoginTest()[pri:2, instance:tests.LoginTest@489115ef]" started-at="2024-12-08T18:11:13 CST" name="verifyLoginTest" finished-at="2024-12-08T18:11:15 CST" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@489115ef]" started-at="2024-12-08T18:11:15 CST" name="tearDown" finished-at="2024-12-08T18:11:15 CST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomeTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.HomeTest@6a78afa0]" started-at="2024-12-08T18:10:44 CST" name="beforeSuite" finished-at="2024-12-08T18:10:46 CST" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomeTest@6a78afa0]" started-at="2024-12-08T18:10:46 CST" name="setUp" finished-at="2024-12-08T18:10:52 CST" duration-ms="6557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginTestSetup()[pri:0, instance:tests.HomeTest@6a78afa0]" started-at="2024-12-08T18:10:52 CST" name="loginTestSetup" finished-at="2024-12-08T18:10:52 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestSetup -->
+        <test-method signature="adminTabTest()[pri:1, instance:tests.HomeTest@6a78afa0]" started-at="2024-12-08T18:10:52 CST" name="adminTabTest" finished-at="2024-12-08T18:10:54 CST" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminTabTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTest@6a78afa0]" started-at="2024-12-08T18:10:54 CST" name="tearDown" finished-at="2024-12-08T18:10:54 CST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomeTest@6a78afa0]" started-at="2024-12-08T18:10:54 CST" name="setUp" finished-at="2024-12-08T18:11:00 CST" duration-ms="6033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySystemUserPageTest()[pri:2, instance:tests.HomeTest@6a78afa0]" started-at="2024-12-08T18:11:00 CST" name="verifySystemUserPageTest" finished-at="2024-12-08T18:11:01 CST" duration-ms="1412" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"ul.oxd-main-menu > li:nth-child(1) > a.oxd-main-menu-item"}
   (Session info: chrome=131.0.6778.109)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.26.0', revision: '8ccf0219d7'
+Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [98b05e8122a69da115eab14b4a5d3dfd, findElement {value=ul.oxd-main-menu > li:nth-child(1) > a.oxd-main-menu-item, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\ariel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59005/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 98b05e8122a69da115eab14b4a5d3dfd]]>
+Command: [7dc78faba383ebbda80e684194cd5c65, findElement {using=css selector, value=ul.oxd-main-menu > li:nth-child(1) > a.oxd-main-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\ariel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64156}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64156/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dc78faba383ebbda80e684194cd5c65]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"ul.oxd-main-menu > li:nth-child(1) > a.oxd-main-menu-item"}
   (Session info: chrome=131.0.6778.109)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.26.0', revision: '8ccf0219d7'
+Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [98b05e8122a69da115eab14b4a5d3dfd, findElement {value=ul.oxd-main-menu > li:nth-child(1) > a.oxd-main-menu-item, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\ariel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59005/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 98b05e8122a69da115eab14b4a5d3dfd
+Command: [7dc78faba383ebbda80e684194cd5c65, findElement {using=css selector, value=ul.oxd-main-menu > li:nth-child(1) > a.oxd-main-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\ariel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64156}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64156/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dc78faba383ebbda80e684194cd5c65
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -109,15 +139,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySystemUserPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTest@1573f9fc]" started-at="2024-12-06T21:53:55 CST" name="tearDown" finished-at="2024-12-06T21:53:55 CST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="loginTestSetup()[pri:0, instance:tests.HomeTest@6a78afa0]" started-at="2024-12-08T18:11:00 CST" name="loginTestSetup" finished-at="2024-12-08T18:11:00 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestSetup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTest@6a78afa0]" started-at="2024-12-08T18:11:01 CST" name="tearDown" finished-at="2024-12-08T18:11:02 CST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="aftersuite()[pri:0, instance:tests.HomeTest@1573f9fc]" started-at="2024-12-06T21:53:55 CST" name="aftersuite" finished-at="2024-12-06T21:53:55 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:tests.HomeTest@6a78afa0]" started-at="2024-12-08T18:11:15 CST" name="aftersuite" finished-at="2024-12-08T18:11:15 CST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftersuite -->
       </class> <!-- tests.HomeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -20,7 +20,7 @@ public class BaseTest {
 	
 	@BeforeMethod
 	public void setUp() throws Exception {
-		 // Load JSON data
+		// Load JSON data
 		JsonDataReader.loadData("testData.json");
        
 		WebDriverManager.chromedriver().setup();

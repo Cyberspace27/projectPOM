@@ -11,6 +11,7 @@ import base.BaseTest;
 import pages.HomePage;
 import utils.JsonDataReader;
 
+
 public class LoginTest extends BaseTest{
 	HomePage home;
 	String username ;
@@ -18,8 +19,9 @@ public class LoginTest extends BaseTest{
     String expectedUrl;
 
 	@BeforeMethod
-    public void loginTestSetup() {
+    public void loginTestSetup() throws IOException, URISyntaxException {
 		// Retrieve test data
+		
 	     username = JsonDataReader.getValue("login", "username");
 	     password = JsonDataReader.getValue("login", "password");
 	     expectedUrl = JsonDataReader.getValue("urls","dashboard_url");
