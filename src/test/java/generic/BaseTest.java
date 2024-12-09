@@ -33,20 +33,20 @@ public class BaseTest {
 		
 	}
 	
-	@BeforeSuite
-    public void beforeSuite() {
-        System.setProperty("headless", "false"); // You can set this property elsewhere
-        String headless = System.getProperty("headless");
-
-        ChromeDriverManager.chromedriver();
-        if("true".equals(headless)) {
-            ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.addArguments("--headless");
-            driver = new ChromeDriver(chromeOptions);
-        } else {
-            driver = new ChromeDriver();
-        }
-	}
+//	@BeforeSuite
+//    public void beforeSuite() {
+//        System.setProperty("headless", "false"); // You can set this property elsewhere
+//        String headless = System.getProperty("headless");
+//
+//        ChromeDriverManager.chromedriver();
+//        if("true".equals(headless)) {
+//            ChromeOptions chromeOptions = new ChromeOptions();
+//            chromeOptions.addArguments("--headless");
+//            driver = new ChromeDriver(chromeOptions);
+//        } else {
+//            driver = new ChromeDriver();
+//        }
+//	}
 	
 	@AfterSuite
 	public void aftersuite() {
