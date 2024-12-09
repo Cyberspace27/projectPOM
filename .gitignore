@@ -1,4 +1,9 @@
 
+
+
+# Ignore TestNG output
+test-output/
+
 # Compiled class files
 
 *.class
@@ -63,8 +68,7 @@ logs/
 
 *.log
 
-*/test-output/*
-test-output/*
+
 
 # Application files
 
